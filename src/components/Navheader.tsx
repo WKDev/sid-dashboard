@@ -14,7 +14,7 @@ function Navheader() {
     const expand = 'md';
     return (
         <>
-            <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+            <Navbar key={expand} bg="light" expand={expand} className="mb-2">
                 <Container fluid>
                     <Navbar.Brand href="#">
                         <img
@@ -22,7 +22,7 @@ function Navheader() {
                             width="110"
                             height="30"
                             className="d-inline-block align-top"
-                            alt="React Bootstrap logo"
+                            alt="SID"
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

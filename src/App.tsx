@@ -5,7 +5,11 @@ import Navheader from './components/Navheader';
 import { Container, Row, Col, Stack, Card } from 'react-bootstrap';
 import ImgOverlay from './components/DeviceCard';
 import BodyArea from './components/BodyArea';
+
 const App = () => {
+
+  // console.log(process.env.REACT_APP_TEST)
+
   return (
     // <>
     //      <Container fluid>

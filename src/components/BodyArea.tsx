@@ -9,7 +9,7 @@ import '../styles/BodyArea.css'
 function BodyArea() {
     return (
       <div className='gallery-wrapper'>
-          <DeviceCard title='test device-001' uuid='456' />
+          <DeviceCard title='test device-001' uuid='10000000-cebe-48bf-b512-760bf8eedab3' />
           <DeviceCard title='test device-001' uuid='456' />
           <DeviceCard title='test device-001' uuid='456' />
           <DeviceCard title='test device-001' uuid='456' />
