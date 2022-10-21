@@ -1,0 +1,8 @@
+.gallery-wrapper{
+    padding: 1rem 1rem 1rem 1rem;
+    display:grid;
+    /* grid-template-columns: 380px 380px; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+
+}

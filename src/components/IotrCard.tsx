@@ -23,7 +23,7 @@ interface CardProps {
 }
 
 
-const DeviceCard = ({ title, uuid, ioss }: CardProps) => {
+const IotrCard = ({ title, uuid, ioss }: CardProps) => {
   const [cam1, setCam1] = useState({
     key: String(Date.now()),
     src: process.env.REACT_APP_S3_BASE_PATH + uuid + process.env.REACT_APP_S3_SUB_PATH + '/cam1.jpg' + '?random=' + String(Date.now())
@@ -162,4 +162,4 @@ const DeviceCard = ({ title, uuid, ioss }: CardProps) => {
   );
 }
 
-export default DeviceCard;
+export default IotrCard;

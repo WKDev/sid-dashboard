@@ -1,9 +1,10 @@
-.gallery-wrapper{
+.gallery-wrapper-ioss{
     padding: 1rem 1rem 1rem 1rem;
     display:grid;
-    grid-template-columns: 720px 720px;
-        /* grid-template-columns: 1fr 1fr; */
-    justify-content: center;
+    /* grid-template-columns: 700px 700; */
+        grid-template-columns: 1fr 1fr; 
+    justify-content:center;  
+
 
 }
 
@@ -14,15 +15,3 @@
     opacity : 1;
     transition : opacity .5s;
   }
-
-
-@media screen and (max-width:720px){
-
-    .gallery-wrapper{
-        padding: 1rem 1rem 1rem 1rem;
-        display:grid;
-        grid-template-columns: 720px ;
-            /* grid-template-columns: 1fr 1fr; */
-        justify-content: center;
-    }
-} 

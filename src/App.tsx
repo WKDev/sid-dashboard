@@ -28,13 +28,6 @@ const App = () => {
 
   return (
     <div className="App">
-
-{/* <div className={'start ' + fade}>
-        { <div>내용0</div>, <div>내용1</div>, <div>내용2</div> }
-      </div> */}
-      {/* <header className="App-header">
-
-      </header> */}
       <Navheader />
 
       <BrowserRouter>
