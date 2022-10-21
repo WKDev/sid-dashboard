@@ -9,6 +9,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import logoImage from '../assets/sid_horizontal.png'
+import '../styles/nav.css'
 function Navheader() {
 
     const expand = 'md';
@@ -21,7 +22,7 @@ function Navheader() {
                             src={logoImage}
                             width="110"
                             height="30"
-                            className="d-inline-block align-top"
+                            className="sid-logo"
                             alt="SID"
                         />
                     </Navbar.Brand>
@@ -33,14 +34,14 @@ function Navheader() {
                     >
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                Offcanvas
+                                에스아이디
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                                <Nav.Link href="#action1">Home</Nav.Link>
-                                <Nav.Link href="#action2">Link</Nav.Link>
-                                <NavDropdown
+                                <Nav.Link href="ioss">디지털 허수아비</Nav.Link>
+                                <Nav.Link href="iotr">디지털 트랩</Nav.Link>
+                                {/* <NavDropdown
                                     title="Dropdown"
                                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                                 >
@@ -52,7 +53,7 @@ function Navheader() {
                                     <NavDropdown.Item href="#action5">
                                         Something else here
                                     </NavDropdown.Item>
-                                </NavDropdown>
+                                </NavDropdown> */}
                             </Nav>
                             {/* <Form className="d-flex"> */}
                                 {/* <Form.Control
@@ -61,7 +62,9 @@ function Navheader() {
                                     className="me-2"
                                     aria-label="Search"
                                 /> */}
-                                <Button variant="outline-success">Search</Button>
+                                {/* <Button variant="outline-primary">디지털 허수아비</Button>
+                                <Button variant="outline-primary">디지털 트랩</Button> */}
+
                             {/* </Form> */}
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
